@@ -39,7 +39,7 @@ lazy val root = project.in(file("."))
         "org.scala-js" %%% "scalajs-dom" % "0.9.4"
       ),
       jsDependencies ++= Seq(
-        "org.webjars.bower" % "leaflet" % "1.0.0-rc.1"
+        "org.webjars.bower" % "leaflet" % "1.0.3"
           / "leaflet.js"
       )
     )
