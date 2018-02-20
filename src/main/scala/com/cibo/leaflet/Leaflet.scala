@@ -58,7 +58,7 @@ object Leaflet extends js.Object {
 
   def marker(latlngs: LatLng): Marker = js.native
 
-  def geoJSON(data: js.Object): GeoJSON = js.native
+  def geoJSON(data: js.Object, options: js.UndefOr[js.Object] = js.undefined): GeoJSON = js.native
 }
 
 @JSGlobal("L.Evented")
