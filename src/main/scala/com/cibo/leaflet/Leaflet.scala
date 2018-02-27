@@ -140,6 +140,8 @@ class Layer extends js.Object {
 
   def removeFrom(map: LeafletMap): Layer = js.native
 
+  def bindPopup(text: String): Layer = js.native
+
   def getPane(name: UndefOr[String] = ""): HTMLElement = js.native
 }
 
