@@ -142,6 +142,12 @@ class Layer extends js.Object {
 
   def bindPopup(text: String): Layer = js.native
 
+  def unbindPopup(): Layer = js.native
+
+  def bindTooltip(text: String): Layer = js.native
+
+  def unbindTooltip(): Layer = js.native
+
   def getPane(name: UndefOr[String] = ""): HTMLElement = js.native
 }
 
